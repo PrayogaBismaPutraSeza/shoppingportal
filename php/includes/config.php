@@ -1,7 +1,7 @@
 <?php
-define('DB_SERVER','172.17.0.1');
-define('DB_USER','root');
-define('DB_PASS' ,'');
+define('DB_SERVER','10.0.0.169');
+define('DB_USER','anuj.lpu1@gmail.com');
+define('DB_PASS' ,'Test@123');
 define('DB_NAME', 'shopping');
 $con = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME);
 // Check connection
